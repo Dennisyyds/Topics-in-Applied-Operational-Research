@@ -36,7 +36,7 @@ Models were adapted to:
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/your-username/edinburgh-school-bus-optimization.git
+git clone https://github.com/Dennisyyds/Topics-in-Applied-Operational-Researc
 ```
 
 2. Install dependencies:
