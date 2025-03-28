@@ -20,8 +20,6 @@ We developed and tested both Deterministic Integer Programming (D-IP) and Stocha
 ├── Solve_DIP.py         # Solver script for deterministic model
 ├── Solve_SIP.py         # Solver script for stochastic model
 ├── main.py              # Main entry point for running experiments
-├── data/                # Folder for input data and synthetic demand
-├── results/             # Output folder for solution results
 ```
 
 ## 🧠 Methodology
@@ -51,23 +49,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Make sure the `data/` folder contains required input data for routes, distances, and scenarios.
-
-## 📁 Data
-
-Due to privacy and scope constraints, synthetic data has been created using:
-- Public school enrollment data
-- Estimated demand by population distribution
-- Google Maps for reposition mileage/duration
-
-## 📊 Results
-
-The model outputs include:
-- Bus-route assignments
-- Number of buses used
-- Total reposition mileage
-- Expected delays under stochastic scenarios
-- Visualizations and solution logs
 
 ## 📜 License
 
